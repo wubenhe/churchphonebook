@@ -31,7 +31,7 @@ pb.MobileRouter = Backbone.Router.extend({
 
 $(document).on('ready', function () {
 
-    pb.templateLoader.load(['welcome'], function () {
+    pb.templateLoader.load(['welcome', 'menu', 'searchresult'], function () {
         pb.router = new pb.MobileRouter();
         Backbone.history.start();
         FB.init({ appId: "161544114004629", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
