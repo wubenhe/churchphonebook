@@ -1,0 +1,18 @@
+a.button-facebook, a.button-facebook:active{
+    background: url(../img/twitter-facebook-login.png) no-repeat scroll -94px -73px transparent; 
+    display:block;
+    height: 40px;
+    width: 220px;
+    margin:auto;
+    border:none;
+    cursor: pointer
+}
+a.button-twitter, a.button-twitter:active{
+    background: url(../img/twitter-facebook-login.png) no-repeat scroll -94px -146px transparent; 
+    display:block;
+    height: 40px;
+    width: 220px;
+    margin:auto;
+    border:none;
+    cursor: pointer
+}
